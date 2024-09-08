@@ -1,0 +1,16 @@
+bindkey "^A" beginning-of-line
+bindkey "^B" backward-word
+bindkey "^E" end-of-line
+bindkey "^F" forward-word
+bindkey "^G" send-break
+bindkey "^H" backward-delete-char
+bindkey "^I" expand-or-complete
+bindkey "^L" clear-screen
+bindkey "^M" accept-line
+bindkey "^N" down-line-or-history
+bindkey "^P" up-line-or-history
+bindkey "^R" history-incremental-search-backward
+bindkey "^U" kill-whole-line
+bindkey "^W" backward-kill-word
+bindkey "^[[H" beginning-of-line
+bindkey "^[[F" end-of-line
